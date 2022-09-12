@@ -5,7 +5,7 @@
  * main - This program will assign a random number to the variable n.
  *
  * and print the last digit of the number.
- * Return: (0) Always
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -26,5 +26,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", 		n, d);
 	}
+	printf('\n');
 	return (0);
 }
