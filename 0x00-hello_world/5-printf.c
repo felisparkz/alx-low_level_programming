@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the function
+ * main - Entry point
  *
- * Description: using the main function 
- * this program prints "programming is like a building puzzle
- * Return: always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a place of art, \n");
+	char *str = "with proper grammar, but the outcome is a piece of art,";
+		printf("%s\n", str);
 	return (0);
 }
+
