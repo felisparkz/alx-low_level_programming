@@ -4,17 +4,16 @@
  * print_alphabet -  a function that prints the alphabet,
  * in lowercase, followed by a new line
  *
- * Return: (0) if successful
+ * Return: (0) if successfu
  */
 void print_alphabet(void)
 {
-	char alphabet = 'a';
+	char c;
 
-	while (alphabet <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar (a);
-		alphabet++;
+		_putchar(c);
 	}
-	_putchar ('\n');
+_putchar ('\n');
 }
 
