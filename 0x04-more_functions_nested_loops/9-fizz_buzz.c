@@ -31,7 +31,8 @@ int main(void)
 			printf("Fizz ");
 		}
 		else
-			printf("%d ", h);
+			printf("%d ", num);
+			num++;
 	}
 
 	return (0);
