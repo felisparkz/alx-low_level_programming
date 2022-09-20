@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strcpy - copia el contenido de uno a otra variable
+ * _strcpy - copy string unto the first argument
  * @dest: this is destiny
- * @soc: this is the copia
+ * @src: this is the copia
  *
  * Return: this return copy
  */
