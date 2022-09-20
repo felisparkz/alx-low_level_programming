@@ -2,15 +2,14 @@
 
 /**
  * _strlen - function that returns the length of a string
- * @s: string to be checked
+ * @s: this is the input string
  * Return: length of the string
  */
 int _strlen(char *s)
 {
-	int len = 0;
+	int index;
 
-	for (; *s++;)
-		len++;
-
-	return (c);
+	for (index = 0; s[index] != '\0' ; index++)
+		;
+	return (index);
 }
