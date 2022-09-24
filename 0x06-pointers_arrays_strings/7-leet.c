@@ -16,10 +16,10 @@ char *leet(char *n)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			if (n[i] == A1[i])
-			{
-				n[i] = A2[j];
-			}
+		if (n[i] == A1[i])
+		{
+			n[i] = A2[j];
+		}
 		}
 	}
 	return (n);
