@@ -2,7 +2,7 @@
 
 /**
  * leet - encode into 1337
- * @n: input
+ * @str: input
  *
  * Return: value of n
  */
@@ -17,7 +17,9 @@ char *leet(char *n)
 		for (j = 0; j < 10; j++)
 		{
 			if (n[i] == A1[i])
+			{
 				n[i] = A2[j];
+			}
 		}
 	}
 	return (n);
