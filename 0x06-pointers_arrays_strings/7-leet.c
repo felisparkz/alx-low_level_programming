@@ -2,7 +2,7 @@
 
 /**
  * leet - encode into 1337
- * @str: input
+ * @n: input
  *
  * Return: value of n
  */
