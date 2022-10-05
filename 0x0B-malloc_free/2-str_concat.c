@@ -4,9 +4,10 @@
 
 /**
  * str_concat - a function that concatenates two string
- * @s1: input
- * @s2: input
- * Return: concat of s1 and s2
+ * @s1: first string
+ * @s2: second string
+ *
+ * Return: a pointer to the concatenated string or NULL if the process fails
  */
 char *str_concat(char *s1, char *s2)
 {
